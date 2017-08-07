@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery的应用</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--0.设置返回的div-->
+<div class="back_top">
+    <img src="images/Top.jpg" alt="">
+</div>
+<!--1.表示头部图片-->
+<div class="banner">
+    <img src="images/logo.png" alt="">
+
+</div>
+<!--2.导航添加-->
+<div class="nav">
+    <div class="nav_content">
+        <div class="nav_left">
+            <img src="images/logo.png">
+        </div>
+        <div class="nav_right">
+            <form action="">
+                <input type="text">
+                <input type="submit">
+            </form>
+
+        </div>
+    </div>
+
+</div>
+<!--3.设置添加的内容的显示-->
+<div class="content">
+    <!--3.1设置头部的tab中的li-->
+    <div class="header">
+        <ul>
+            <li class="curr">代办事项</li>
+            <li>完成事项</li>
+        </ul>
+    </div>
+    <!--3.2设置显示的内容-->
+    <div>
+        <div class="body active">
+            <ul class="task">
+                <!--<li>-->
+                    <!--<input type="checkbox">-->
+                    <!--<span>quer</span>-->
+                    <!--<span class="detail">详情</span>-->
+                    <!--<span class="del">删除</span>-->
+
+                <!--</li>-->
+            </ul>
+        </div>
+        <div class="body">
+            <ul class="finish_task">
+
+            </ul>
+        </div>
+
+
+
+    </div>
+
+</div>
+<!--4.设置对应的详情的处理的结构-->
+<div class="mask">
+    <div class="mask_content">
+        <!--4.1设置小盒子的头部的div-->
+        <div class="content_header">
+            <span class="title">1234</span>
+            <span class="close">关闭</span>
+
+        </div>
+        <div class="content_body">
+            <textarea  class='content_detail'></textarea>
+            <input  id="remind_time" type="text">
+            <button class="update">更新</button>
+
+        </div>
+
+    </div>
+</div>
+
+<!--5.设置提醒音乐-->
+<video src="4188.mp3"></video>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/jquery.datetimepicker.full.js"></script>
+<script src="js/store.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
